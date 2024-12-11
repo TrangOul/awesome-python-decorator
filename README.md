@@ -15,43 +15,43 @@ to be a central repository of decorator code pieces. Lots of decorator examples,
 
 ## Built-in python decorator
 
-- [@abc.abstractmethod](https://docs.python.org/3.5/library/abc.html#abc.abstractmethod) A decorator indicating
+- [@abc.abstractmethod](https://docs.python.org/3/library/abc.html#abc.abstractmethod) A decorator indicating
 abstract methods.
-- [@abc.abstractproperty](https://docs.python.org/3.5/library/abc.html#abc.abstractproperty) A subclass of the built-in
+- [@abc.abstractproperty](https://docs.python.org/3/library/abc.html#abc.abstractproperty) A subclass of the built-in
 `property()`, indicating an abstract property.
-- [@asyncio.coroutine](https://docs.python.org/3.5/library/asyncio-task.html#asyncio.coroutine) Decorator to mark
+- [@asyncio.coroutine](https://docs.python.org/3/library/asyncio-task.html#asyncio.coroutine) Decorator to mark
 generator-based coroutines. New in version 3.4.
 - [@atexit.register](https://docs.python.org/2.7/library/atexit.html#atexit.register) Register func as a function to
 be executed at termination.
-- [@classmethod](https://docs.python.org/3.5/library/functions.html#classmethod) Return a class method for function.
-- [@contextlib.contextmanager](https://docs.python.org/3.5/library/contextlib.html#contextlib.contextmanager) Define a
+- [@classmethod](https://docs.python.org/3/library/functions.html#classmethod) Return a class method for function.
+- [@contextlib.contextmanager](https://docs.python.org/3/library/contextlib.html#contextlib.contextmanager) Define a
 factory function for with statement context managers, without needing to create a class or separate `__enter__()` and
 `__exit__()` methods.
 - [@functools.cached_property](https://docs.python.org/3.8/library/functools.html#functools.cached_property) Transform
 a method of a class into a property whose value is computed once and then cached as a normal attribute
 for the life of the instance.
-- [@functools.lru_cache](https://docs.python.org/3.5/library/functools.html#functools.lru_cache) Decorator to wrap a
+- [@functools.lru_cache](https://docs.python.org/3/library/functools.html#functools.lru_cache) Decorator to wrap a
 function with a memoizing callable that saves up to the maxsize most recent calls. It can save time when an expensive
 or I/O bound function is periodically called with the same arguments. New in python 3.2.
-- [@functools.singledispatch](https://docs.python.org/3.5/library/functools.html#functools.singledispatch) Transforms
+- [@functools.singledispatch](https://docs.python.org/3/library/functools.html#functools.singledispatch) Transforms
 a function into a single-dispatch generic function. New in python 3.4.
-- [@functools.total_ordering](https://docs.python.org/3.5/library/functools.html#functools.total_ordering) Given a
+- [@functools.total_ordering](https://docs.python.org/3/library/functools.html#functools.total_ordering) Given a
 class defining one or more rich comparison ordering methods, this class decorator supplies the rest.
-- [@functools.wraps](https://docs.python.org/3.5/library/functools.html#functools.wraps) This is a convenience function
+- [@functools.wraps](https://docs.python.org/3/library/functools.html#functools.wraps) This is a convenience function
 for invoking update_wrapper() as a function decorator when defining a wrapper function.
-- [@property](https://docs.python.org/3.5/library/functions.html#property) Return a property attribute.
-- [@staticmethod](https://docs.python.org/3.5/library/functions.html#staticmethod) Return a static method for function.
-- [@types.coroutine](https://docs.python.org/3.5/library/types.html#types.coroutine) This function transforms a
+- [@property](https://docs.python.org/3/library/functions.html#property) Return a property attribute.
+- [@staticmethod](https://docs.python.org/3/library/functions.html#staticmethod) Return a static method for function.
+- [@types.coroutine](https://docs.python.org/3/library/types.html#types.coroutine) This function transforms a
 generator function into a coroutine function which returns a generator-based coroutine. New in python 3.5.
-- [@unittest.mock.patch](https://docs.python.org/3.5/library/unittest.mock.html#unittest.mock.patch) Acts as a function
+- [@unittest.mock.patch](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.patch) Acts as a function
 decorator, class decorator or a context manager. Inside the body of the function or with statement, the target is
 patched with a new object. When the function/with statement exits the patch is undone. New in python 3.3.
-- [@unittest.mock.patch.dict](https://docs.python.org/3.5/library/unittest.mock.html#unittest.mock.patch.dict)
+- [@unittest.mock.patch.dict](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.patch.dict)
 Patch a dictionary, or dictionary like object, and restore the dictionary to its original state after the test.
 New in python 3.3.
-- [@unittest.mock.patch.multiple](https://docs.python.org/3.5/library/unittest.mock.html#unittest.mock.patch.multiple)
+- [@unittest.mock.patch.multiple](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.patch.multiple)
 Perform multiple patches in a single call. New in python 3.3.
-- [@unittest.mock.patch.object](https://docs.python.org/3.5/library/unittest.mock.html#unittest.mock.patch.object)
+- [@unittest.mock.patch.object](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.patch.object)
 Patch the named member (attribute) on an object (target) with a mock object. New in python 3.3.
 - to be continue
 
